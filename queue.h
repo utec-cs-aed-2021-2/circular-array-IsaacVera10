@@ -2,5 +2,5 @@
 
 template <typename T>
 class QueueArray : public CircularArray<T> { 
-    
+
 };
