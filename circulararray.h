@@ -70,7 +70,7 @@ string CircularArray<T>::to_string(string sep)
 {
     string result = ""; 
     for (int i = 0; i < size(); i++)
-        result += to_string((*this)[i]) + sep;
+        result += std::to_string((*this)[i]) + sep;
     return result;    
 }
 
